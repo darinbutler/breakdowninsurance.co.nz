@@ -15,7 +15,7 @@ export default function CoveragePage() {
       <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: 'url(/images/hero-4.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/30" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">MBI Coverage Types in New Zealand</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">MBI Coverage Types</h1>
           <p className="text-xl text-slate-300 mb-8">From comprehensive engine and transmission cover to EV battery protection — understand all your MBI options.</p>
           <Link href="/#quote-form" className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold px-8 py-4 rounded-xl transition-all duration-200 shadow-xl">
             Get a Free Quote

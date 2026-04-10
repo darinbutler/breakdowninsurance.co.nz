@@ -14,7 +14,7 @@ export default function ComparePage() {
     <>
       <section className="py-10 pt-14 pb-16 px-4 sm:px-6 lg:px-8 bg-slate-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Compare NZ MBI Providers</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Compare MBI Providers</h1>
           <p className="text-xl text-slate-300 mb-8">Side-by-side comparison of New Zealand&apos;s leading mechanical breakdown insurance providers.</p>
           <Link href="/#quote-form" className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold px-8 py-4 rounded-xl transition-all duration-200 shadow-xl">
             Get a Personalised Quote
@@ -24,7 +24,7 @@ export default function ComparePage() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-slate-900 mb-10 text-center">NZ MBI Provider Comparison</h2>
+          <h2 className="text-3xl font-extrabold text-slate-900 mb-10 text-center">MBI Provider Comparison</h2>
 
           {/* Mobile cards */}
           <div className="lg:hidden space-y-6 mb-10">

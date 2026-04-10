@@ -11,12 +11,12 @@ const coverageTypes = [
 ];
 
 const mbiGuides = [
-  { label: 'Cheap MBI NZ', href: '/breakdown-insurance/cheap-mechanical-breakdown-insurance-nz' },
-  { label: 'Best MBI NZ', href: '/breakdown-insurance/best-mechanical-breakdown-insurance-nz' },
+  { label: 'Cheap MBI', href: '/breakdown-insurance/cheap-mechanical-breakdown-insurance-nz' },
+  { label: 'Best MBI', href: '/breakdown-insurance/best-mechanical-breakdown-insurance-nz' },
   { label: 'MBI for Used Cars', href: '/breakdown-insurance/mechanical-breakdown-insurance-used-cars-nz' },
   { label: 'EV Breakdown Insurance', href: '/breakdown-insurance/ev-mechanical-breakdown-insurance-nz' },
   { label: 'MBI vs Warranty', href: '/breakdown-insurance/mechanical-breakdown-insurance-vs-warranty-nz' },
-  { label: 'Compare MBI NZ', href: '/breakdown-insurance/compare-mechanical-breakdown-insurance-nz' },
+  { label: 'Compare MBI', href: '/breakdown-insurance/compare-mechanical-breakdown-insurance-nz' },
 ];
 
 const regionalGuides = [
@@ -25,15 +25,15 @@ const regionalGuides = [
   { label: 'MBI Wellington', href: '/breakdown-insurance/mechanical-breakdown-insurance-wellington' },
   { label: 'Japanese Import MBI', href: '/breakdown-insurance/japanese-import-breakdown-insurance-nz' },
   { label: 'MBI for Older Vehicles', href: '/breakdown-insurance/mechanical-breakdown-insurance-older-vehicles-nz' },
-  { label: 'Roadside Assistance NZ', href: '/breakdown-insurance/roadside-assistance-breakdown-insurance-nz' },
+  { label: 'Roadside Assistance', href: '/breakdown-insurance/roadside-assistance-breakdown-insurance-nz' },
 ];
 
 const moreGuides = [
-  { label: 'MBI Cost NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-cost-nz' },
-  { label: 'Transmission Cover NZ', href: '/breakdown-insurance/transmission-failure-cover-nz' },
+  { label: 'MBI Cost', href: '/breakdown-insurance/mechanical-breakdown-insurance-cost-nz' },
+  { label: 'Transmission Cover', href: '/breakdown-insurance/transmission-failure-cover-nz' },
   { label: 'Engine Breakdown Cover', href: '/breakdown-insurance/engine-breakdown-cover-nz' },
-  { label: 'MBI Exclusions NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-exclusions-nz' },
-  { label: 'MBI Benefits NZ', href: '/breakdown-insurance/mbi-benefits-nz' },
+  { label: 'MBI Exclusions', href: '/breakdown-insurance/mechanical-breakdown-insurance-exclusions-nz' },
+  { label: 'MBI Benefits', href: '/breakdown-insurance/mbi-benefits-nz' },
   { label: 'Dealer vs Independent MBI', href: '/breakdown-insurance/dealer-mbi-vs-independent-mbi-nz' },
 ];
 
@@ -158,9 +158,9 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* NZ Regulatory */}
+          {/* Regulatory */}
           <div className="col-span-1">
-            <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">NZ Regulatory</h3>
+            <h3 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Regulatory Bodies</h3>
             <ul className="space-y-2.5">
               {regulatory.map((link) => (
                 <li key={link.href}>

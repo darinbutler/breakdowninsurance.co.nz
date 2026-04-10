@@ -25,12 +25,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>In New Zealand, MBI is particularly relevant because the country's used vehicle market is dominated by second-hand imports and domestic used cars that have typically exited their manufacturer warranty. Without MBI, owners of these vehicles bear the full financial risk of unexpected mechanical failures, which can run into tens of thousands of dollars.</p>
 
-<h2>Why New Zealand Vehicle Owners Need MBI</h2>
+<h2>Why Vehicle Owners Need MBI</h2>
 <p>New Zealand has over 4.4 million registered vehicles, the majority of which are used cars purchased without active manufacturer warranties. The average age of NZ's vehicle fleet is over 14 years — among the oldest in the developed world. An older fleet means higher mechanical failure risk, and that risk falls entirely on vehicle owners without MBI protection.</p>
 
 <p>Consider the most common and most expensive vehicle failures: automatic transmission replacement ($5,000–$15,000), engine rebuild or replacement ($4,000–$25,000), ECU failure ($1,500–$4,000), turbocharger replacement ($2,000–$6,000), and cooling system failure ($1,000–$3,000). Any of these can make a used vehicle economically unviable to repair, leaving owners stranded without transport and without recourse.</p>
 
-<h2>Types of MBI Available in New Zealand</h2>
+<h2>Types of MBI Available</h2>
 <p><strong>Comprehensive MBI</strong> covers the widest range of components including the engine, transmission, drivetrain, electrical systems, cooling, fuel injection, steering, and braking systems. This is the gold standard of protection and typically includes roadside assistance, towing, rental car cover, and accommodation benefits.</p>
 
 <p><strong>Drivetrain-focused cover</strong> targets the most expensive mechanical repairs — transmission, gearbox, differentials, and driveshafts — at lower premiums than full comprehensive cover.</p>
@@ -83,7 +83,7 @@ export const blogPosts: BlogPost[] = [
     image: '/images/hero-6.jpg',
     readTime: '6 min read',
     category: 'Money & Pricing',
-    content: `<h2>MBI Premium Ranges in New Zealand</h2>
+    content: `<h2>MBI Premium Ranges</h2>
 <p>Mechanical Breakdown Insurance premiums in New Zealand vary significantly based on several key factors. Rather than a fixed product with a standard price, MBI is risk-priced, meaning your specific vehicle, its age, mileage, and condition all influence what you'll pay.</p>
 
 <p>As a broad guide for 2025: entry-level cover (engine and transmission focus) for a mid-range 5-8 year old vehicle typically ranges from $20–$40 per month or $300–$600 as an annual premium. Mid-range comprehensive cover for the same vehicle runs $40–$70 per month or $600–$1,000 annually. Premium cover including EV components, roadside assistance, and accommodation benefits can range from $80–$130 per month.</p>
@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Your selected excess has a direct relationship with premium — choosing a $1,000 excess instead of a $250 excess can reduce your premium by 15–25%. The cover level chosen (basic vs comprehensive) and policy term (annual vs 3-year prepaid) also affect pricing. Multi-year prepaid policies often provide better per-year pricing than rolling annual premiums.</p>
 
-<h2>Getting Best-Value MBI in NZ</h2>
+<h2>Getting Best-Value MBI</h2>
 <p>Comparing multiple MBI providers is the most effective way to ensure you're getting fair value. The MBI market in New Zealand is not perfectly competitive — dealers typically present one or two products, creating no comparison pressure. Using an independent broker who works across multiple providers gives you the comparison advantage without requiring you to research multiple companies independently.</p>
 
 <p>Also consider whether you actually need the most comprehensive cover available. For a $8,000 vehicle, premium comprehensive MBI may not be economical — a policy covering engine, transmission, and electrical basics may represent better value. For a $40,000 vehicle, comprehensive cover is almost always worthwhile.</p>`,
@@ -138,7 +138,7 @@ export const blogPosts: BlogPost[] = [
     image: '/images/hero-7.jpg',
     readTime: '9 min read',
     category: 'EV Insurance',
-    content: `<h2>The Growing EV Fleet in New Zealand</h2>
+    content: `<h2>The Growing EV Fleet</h2>
 <p>New Zealand's electric vehicle fleet has grown significantly over the past five years, driven by government incentives, increasing model availability, and growing environmental awareness. Nissan LEAFs, Tesla Model 3s, BYD EVs, and Mitsubishi Outlander PHEVs have become common sights on NZ roads. This rapid adoption has created a new insurance need that the traditional MBI market has been slow to fully address.</p>
 
 <h2>The EV Battery Risk</h2>
@@ -152,7 +152,7 @@ export const blogPosts: BlogPost[] = [
 <h2>Hybrid-Specific Considerations</h2>
 <p>Plug-in hybrid vehicles (PHEVs) and mild hybrids have additional complexity — a petrol drivetrain alongside hybrid-specific components. A good PHEV MBI policy covers both the petrol mechanical components and the hybrid-specific electrical system including the traction battery, hybrid control module, and regenerative braking system. Non-plug-in hybrids (like the Toyota Prius or Honda Jazz Hybrid) typically have smaller batteries with lower replacement costs but still benefit from dedicated hybrid MBI cover.</p>
 
-<h2>Finding EV MBI in New Zealand</h2>
+<h2>Finding EV MBI Cover</h2>
 <p>Not all NZ MBI providers offer genuine EV battery cover. When evaluating EV MBI, specifically ask: does the policy cover traction battery pack replacement? Is there a minimum remaining capacity threshold? What is the maximum claim limit for a battery replacement event? Specialist brokers with EV MBI experience can identify the products that genuinely protect EV owners from battery-related financial risk.</p>`,
   },
   {
@@ -188,7 +188,7 @@ export const blogPosts: BlogPost[] = [
     image: '/images/hero-3.jpg',
     readTime: '8 min read',
     category: 'Insurance Guides',
-    content: `<h2>Japanese Imports in the NZ Market</h2>
+    content: `<h2>Japanese Imports in the Local Market</h2>
 <p>New Zealand's used car market is heavily reliant on Japanese domestic market (JDM) vehicles. Shipped from Japan and compliance-tested for NZ roads, these vehicles — predominantly Toyota, Honda, Nissan, Mazda, Subaru, and Mitsubishi models — make up a substantial portion of NZ registrations. Their reputation for reliability is generally well-deserved, but they do present specific MBI considerations that differ from new vehicles purchased in New Zealand.</p>
 
 <h2>Odometer and Mileage Considerations</h2>

@@ -54,7 +54,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
         <div className="bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-5">
           <h3 className="text-white font-bold text-xl">Get Your Free MBI Quote</h3>
-          <p className="text-amber-100 text-sm mt-1">Compare NZ breakdown insurers in 2 minutes</p>
+          <p className="text-amber-100 text-sm mt-1">Compare breakdown insurers in 2 minutes</p>
         </div>
 
         <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" onSubmit={handleSubmit} className="p-6 space-y-4">

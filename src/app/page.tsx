@@ -73,7 +73,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-6">
-                Why Every NZ Vehicle Owner Should Consider MBI
+                Why Every Vehicle Owner Should Consider MBI
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 New Zealand&apos;s vehicle fleet averages over 14 years old — among the oldest in the developed world. When manufacturer warranties expire, the full cost of unexpected mechanical failures falls on you. A single engine or transmission repair can cost $5,000–$20,000.
@@ -126,7 +126,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 gap-4">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-3">Leading NZ MBI Providers</h2>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-3">Leading MBI Providers</h2>
               <p className="text-lg text-slate-600">We compare policies from New Zealand&apos;s top mechanical breakdown insurers.</p>
             </div>
             <Link href="/compare" className="text-amber-600 font-semibold flex items-center gap-2 hover:gap-3 transition-all whitespace-nowrap">

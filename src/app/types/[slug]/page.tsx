@@ -81,7 +81,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
               </div>
 
               <div className="mt-8 bg-amber-50 border border-amber-200 rounded-2xl p-6">
-                <h3 className="font-bold text-slate-900 mb-3">Getting {type.title} in New Zealand</h3>
+                <h3 className="font-bold text-slate-900 mb-3">Getting {type.title} Cover</h3>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4">Our licensed NZ brokers compare {type.title.toLowerCase()} policies from multiple providers to find the best fit for your vehicle and budget. Submit a free quote request for a personalised comparison within 24 hours.</p>
                 <Link href="/#quote-form" className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-bold px-6 py-3 rounded-xl">
                   Get a Free Quote
