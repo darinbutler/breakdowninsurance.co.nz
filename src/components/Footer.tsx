@@ -176,13 +176,17 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
+        {/* How This Site Works */}
         <div className="mt-12 pt-8 border-t border-slate-800">
-          <p className="text-slate-500 text-xs leading-relaxed max-w-none mb-2">
-            <strong className="text-slate-400">Disclaimer:</strong> BreakdownInsurance.co.nz is operated by Cover4You Limited, an independent information and lead generation service. We are not an insurance company, underwriter, or licensed financial adviser. Information on this website is general in nature and does not constitute financial advice. When you submit a quote request, your details are forwarded to licensed New Zealand insurance brokers. Cover4You Limited may receive referral fees. All MBI policies are subject to the terms and conditions of the issuing insurer.
+          <h4 className="text-sm font-bold text-slate-300 uppercase tracking-wide mb-3">How This Site Works</h4>
+          <p className="text-xs text-slate-500 leading-relaxed max-w-none">
+            BreakdownInsurance.co.nz is a free comparison service — we are not an insurer, broker, or financial adviser. When you request a quote, we connect you with licensed insurance brokers and advisers from our network who can provide personalised quotes and advice tailored to your circumstances. All insurance products are issued by licensed insurers through our broker partners. Information on this website is general in nature and does not constitute financial advice. You should seek independent financial advice before making insurance decisions.
           </p>
-          <p className="text-slate-500 text-xs leading-relaxed max-w-none">
-            MBI products in New Zealand are regulated by the Reserve Bank of New Zealand (RBNZ) and the Financial Markets Authority (FMA). We recommend reviewing the <a href="https://www.icnz.org.nz" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-amber-400 underline">Insurance Council of New Zealand</a> guidelines. © {new Date().getFullYear()} Cover4You Limited. All rights reserved. BreakdownInsurance.co.nz
+          <p className="text-xs text-slate-500 leading-relaxed max-w-none mt-3">
+            <span className="text-slate-400 font-semibold">Commercial Relationships &amp; Incentives:</span> We may receive referral fees, commissions, or other commercial incentives from the insurance brokers, underwriters, and providers featured on this website. These arrangements do not influence the price you pay for any insurance product. Before featuring any provider on our websites, we personally review and vet each broker, underwriter, and insurer to ensure they are appropriately licensed, hold a good standing with the relevant NZ regulatory bodies (including the FMA and ICNZ), and meet our standards for claims handling and customer service. Our editorial content and provider comparisons reflect our honest, independent assessment.
+          </p>
+          <p className="text-xs text-slate-600 leading-relaxed max-w-none mt-4">
+            © {new Date().getFullYear()} Cover4You Limited. All rights reserved. BreakdownInsurance.co.nz
           </p>
         </div>
       </div>

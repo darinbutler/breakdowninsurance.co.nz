@@ -57,12 +57,6 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
         </div>
       </div>
 
-      <div className="py-8 px-4 sm:px-6 lg:px-8 bg-amber-50 border-b border-amber-100">
-        <div className="max-w-3xl mx-auto">
-          <QuoteForm mode="compact" />
-        </div>
-      </div>
-
       <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">

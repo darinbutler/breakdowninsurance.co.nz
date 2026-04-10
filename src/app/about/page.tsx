@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuoteForm from '@/components/QuoteForm';
-
 export const metadata: Metadata = {
   title: 'About Us | BreakdownInsurance.co.nz | Independent MBI Advice NZ',
   description: 'About BreakdownInsurance.co.nz — New Zealand\'s independent mechanical breakdown insurance comparison and advice service operated by Cover4You Limited.',
@@ -16,12 +14,6 @@ export default function AboutPage() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">About BreakdownInsurance.co.nz</h1>
           <p className="text-xl text-slate-300">New Zealand&apos;s independent Mechanical Breakdown Insurance information and comparison service.</p>
-        </div>
-      </div>
-
-      <div className="py-8 px-4 sm:px-6 lg:px-8 bg-amber-50 border-b border-amber-100">
-        <div className="max-w-3xl mx-auto">
-          <QuoteForm mode="compact" />
         </div>
       </div>
 

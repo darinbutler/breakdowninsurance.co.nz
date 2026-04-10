@@ -46,11 +46,6 @@ export default function ContactPage() {
                   </div>
                 ))}
               </div>
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-4">
-                <p className="text-sm text-slate-600 leading-relaxed">
-                  BreakdownInsurance.co.nz is operated by Cover4You Limited, an independent information and referral service. We connect you with licensed NZ insurance brokers who will provide your quote directly.
-                </p>
-              </div>
             </div>
             <div className="lg:col-span-2">
               <QuoteForm mode="full" />

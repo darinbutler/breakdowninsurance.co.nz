@@ -52,23 +52,6 @@ export default function HowItWorksSection() {
           ))}
         </div>
 
-        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 sm:p-8">
-          <div className="max-w-none">
-            <h3 className="text-lg font-bold text-slate-800 mb-3">How This Site Works</h3>
-            <p className="text-slate-600 text-sm leading-relaxed mb-2">
-              BreakdownInsurance.co.nz is an independent information and lead generation service operated by Cover4You Limited. We are not an insurance company or underwriter. When you submit a quote request through this site, your details are forwarded to licensed New Zealand insurance brokers and advisors who will contact you directly with tailored mechanical breakdown insurance options. We do not provide financial advice, and any information on this site is general in nature only.
-            </p>
-            <p className="text-slate-600 text-sm leading-relaxed">
-              All MBI policies in New Zealand are subject to the terms and conditions of the issuing insurer. Cover4You Limited may receive a referral fee from partner brokers. We recommend reviewing the{' '}
-              <a href="https://www.icnz.org.nz" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-800">
-                Insurance Council of New Zealand (ICNZ)
-              </a>{' '}
-              guidelines before purchasing any insurance policy. Please read our{' '}
-              <Link href="/disclaimer" className="text-amber-700 underline hover:text-amber-800">full disclaimer</Link>{' '}
-              for more information.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

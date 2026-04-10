@@ -51,7 +51,7 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {coverageTypes.map((type) => (
-              <Link key={type.slug} href={`/types/${type.slug}`} className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+              <Link key={type.slug} href={`/types/${type.slug}`} className="group bg-white border-2 border-slate-200 rounded-2xl p-6 hover:border-amber-400 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                 <div className="text-3xl mb-3">{type.icon}</div>
                 <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-amber-700 transition-colors">{type.title}</h3>
                 <p className="text-slate-600 text-sm leading-relaxed mb-4">{type.description}</p>
@@ -78,19 +78,18 @@ export default function HomePage() {
               <p className="text-slate-600 text-lg leading-relaxed mb-6">
                 New Zealand&apos;s vehicle fleet averages over 14 years old — among the oldest in the developed world. When manufacturer warranties expire, the full cost of unexpected mechanical failures falls on you. A single engine or transmission repair can cost $5,000–$20,000.
               </p>
-              <div className="space-y-4 mb-8">
+              <div className="grid grid-cols-2 gap-4 mb-8">
                 {[
-                  { icon: '🔧', title: 'Engine & Transmission', text: 'Covers the most expensive repairs your vehicle will ever need.' },
-                  { icon: '⚡', title: 'Electrical Systems', text: 'Modern cars are computers on wheels. Protect against ECU and sensor failures.' },
-                  { icon: '🔋', title: 'EV Battery Cover', text: 'Battery pack replacement can cost $20,000+. Specialised cover protects EV owners.' },
-                  { icon: '🚗', title: '24/7 Roadside Assist', text: 'Never be stranded — nationwide towing and emergency assistance included.' },
+                  { icon: '🔧', title: 'Engine & Transmission Cover', text: 'Covers the most expensive repairs your vehicle will ever need.', color: 'from-amber-400 to-amber-500' },
+                  { icon: '⚡', title: 'Electrical Systems Cover', text: 'Protect against ECU, sensor and wiring failures.', color: 'from-orange-400 to-orange-500' },
+                  { icon: '🔋', title: 'EV Battery Protection', text: 'Battery replacement can cost $20,000+. Stay covered.', color: 'from-amber-500 to-orange-500' },
+                  { icon: '🚗', title: '24/7 Roadside Assistance', text: 'Nationwide towing and emergency assistance included.', color: 'from-orange-500 to-red-500' },
                 ].map((item) => (
-                  <div key={item.title} className="flex items-start gap-4">
-                    <div className="w-10 h-10 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">{item.icon}</div>
-                    <div>
-                      <h3 className="font-bold text-slate-900 mb-1">{item.title}</h3>
-                      <p className="text-slate-600 text-sm">{item.text}</p>
-                    </div>
+                  <div key={item.title} className="group relative bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                    <div className={`absolute inset-0 bg-gradient-to-br ${item.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`} />
+                    <div className={`w-14 h-14 bg-gradient-to-br ${item.color} rounded-2xl flex items-center justify-center mb-4 shadow-md text-3xl`}>{item.icon}</div>
+                    <h3 className="font-bold text-slate-900 text-sm leading-tight mb-2">{item.title}</h3>
+                    <p className="text-slate-500 text-xs leading-relaxed">{item.text}</p>
                   </div>
                 ))}
               </div>

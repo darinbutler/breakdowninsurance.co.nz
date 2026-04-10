@@ -23,12 +23,6 @@ export default function CoveragePage() {
         </div>
       </div>
 
-      <div className="py-4 px-4 sm:px-6 lg:px-8 bg-amber-50 border-b border-amber-100">
-        <div className="max-w-7xl mx-auto">
-          <QuoteForm mode="compact" />
-        </div>
-      </div>
-
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">

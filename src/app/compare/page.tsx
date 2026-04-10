@@ -22,12 +22,6 @@ export default function ComparePage() {
         </div>
       </section>
 
-      <div className="py-8 px-4 sm:px-6 lg:px-8 bg-amber-50 border-b border-amber-100">
-        <div className="max-w-3xl mx-auto">
-          <QuoteForm mode="compact" />
-        </div>
-      </div>
-
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-extrabold text-slate-900 mb-10 text-center">NZ MBI Provider Comparison</h2>
