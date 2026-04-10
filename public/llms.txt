@@ -1,0 +1,77 @@
+# BreakdownInsurance.co.nz — LLMs.txt
+
+## Site Overview
+BreakdownInsurance.co.nz is New Zealand's independent Mechanical Breakdown Insurance (MBI) information and comparison service. Operated by Cover4You Limited, the site provides impartial guidance on MBI products, helps NZ vehicle owners compare providers, and connects consumers with licensed NZ insurance brokers for free quote requests.
+
+## Key Pages
+
+### Core Navigation
+- / — Home page with MBI overview, coverage types, provider comparison, and quote form
+- /coverage — All MBI coverage types available in New Zealand
+- /compare — Side-by-side comparison of NZ MBI providers
+- /blog — Expert MBI guides and insurance articles
+- /faqs — Frequently asked questions about MBI in New Zealand
+- /contact — Free quote request form (submissions to hello@cover4you.co.nz)
+- /about — About BreakdownInsurance.co.nz and Cover4You Limited
+
+### Coverage Types
+- /types/comprehensive — Comprehensive MBI (full mechanical + electrical cover)
+- /types/drivetrain — Drivetrain & Transmission Cover
+- /types/electrical — Electrical Systems Cover
+- /types/ev-hybrid — EV & Hybrid Battery Cover
+- /types/roadside-assistance — Roadside Assistance
+- /types/extended-warranty — Extended Warranty
+
+### SEO Landing Pages (breakdown-insurance/)
+- /breakdown-insurance/cheap-mechanical-breakdown-insurance-nz
+- /breakdown-insurance/best-mechanical-breakdown-insurance-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-used-cars-nz
+- /breakdown-insurance/ev-mechanical-breakdown-insurance-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-vs-warranty-nz
+- /breakdown-insurance/compare-mechanical-breakdown-insurance-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-cost-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-auckland
+- /breakdown-insurance/mechanical-breakdown-insurance-christchurch
+- /breakdown-insurance/mechanical-breakdown-insurance-wellington
+- /breakdown-insurance/japanese-import-breakdown-insurance-nz
+- /breakdown-insurance/roadside-assistance-breakdown-insurance-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-older-vehicles-nz
+- /breakdown-insurance/dealer-mbi-vs-independent-mbi-nz
+- /breakdown-insurance/transmission-failure-cover-nz
+- /breakdown-insurance/engine-breakdown-cover-nz
+- /breakdown-insurance/mechanical-breakdown-insurance-exclusions-nz
+- /breakdown-insurance/mbi-benefits-nz
+
+### Legal
+- /privacy — Privacy Policy
+- /terms — Terms of Use
+- /disclaimer — Full Disclaimer
+
+## Key Topics Covered
+- What is Mechanical Breakdown Insurance (MBI)?
+- MBI vs Extended Warranty in NZ
+- EV and Hybrid Battery MBI
+- Japanese Import Vehicle MBI
+- MBI costs and premium factors in NZ
+- How to claim on MBI
+- MBI exclusions and what is not covered
+- Provider comparison: AutoSure, Provident Insurance, AA Mechanical Care, Protecta
+- Regional MBI guides: Auckland, Christchurch, Wellington
+
+## Site Purpose
+Lead generation for NZ licensed insurance brokers. When users submit quote requests, their details are forwarded to licensed MBI brokers for follow-up. The site is not a financial advice service.
+
+## Operators
+Cover4You Limited
+Email: hello@cover4you.co.nz
+Country: New Zealand
+
+## Regulatory Context
+- Insurance products regulated by RBNZ and FMA (NZ)
+- Industry body: Insurance Council of New Zealand (ICNZ) — https://www.icnz.org.nz
+
+## Technical
+- Platform: Next.js (static export)
+- Hosted: GitHub Pages
+- Domain: breakdowninsurance.co.nz
+- Sitemap: https://breakdowninsurance.co.nz/sitemap.xml

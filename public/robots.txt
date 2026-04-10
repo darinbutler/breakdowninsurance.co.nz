@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /thank-you/
+
+Sitemap: https://breakdowninsurance.co.nz/sitemap.xml
