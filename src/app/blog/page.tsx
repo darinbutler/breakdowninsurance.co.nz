@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   return (
     <>
-      <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1632823471565-1ecdf5c6da2f?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/30" />
         <div className="relative max-w-4xl mx-auto text-center z-10">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Breakdown Insurance Guides & Insights</h1>
