@@ -8,7 +8,7 @@ export const dynamicParams = false;
 
 const heroImages: Record<string, string> = {
   comprehensive: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80',
-  drivetrain: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80',
+  drivetrain: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80',
   electrical: 'https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=1600&q=80',
   'ev-hybrid': 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&q=80',
   'roadside-assistance': 'https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=1600&q=80',

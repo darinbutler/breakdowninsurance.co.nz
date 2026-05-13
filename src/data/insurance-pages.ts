@@ -12,7 +12,7 @@ export interface InsurancePage {
 export const insurancePages: InsurancePage[] = [
   {
     slug: 'cheap-mechanical-breakdown-insurance-nz',
-    title: 'Affordable Breakdown Insurance NZ',
+    title: 'Affordable Breakdown Insurance',
     metaTitle: 'Affordable Breakdown Insurance NZ 2026 | Compare Cheap MBI Providers',
     metaDescription: 'Compare affordable mechanical breakdown insurance in New Zealand for 2026. Understand what drives MBI costs, which providers offer genuine value, and how to avoid paying for cover you don\'t need.',
     heroHeading: 'Affordable Breakdown Insurance',
@@ -39,7 +39,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'best-mechanical-breakdown-insurance-nz',
-    title: 'Best Breakdown Insurance NZ 2026',
+    title: 'Best Breakdown Insurance 2026',
     metaTitle: 'Best Breakdown Insurance NZ 2026 | Independent Provider Comparison',
     metaDescription: 'Independent comparison of the best mechanical breakdown insurance providers in New Zealand for 2026. Autosure, Provident, AA, NZVF, Quest and more — compared on cover, claims and value.',
     heroHeading: 'Best Breakdown Insurance 2026',
@@ -66,7 +66,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mechanical-breakdown-insurance-used-cars-nz',
-    title: 'Breakdown Insurance for Used Cars NZ',
+    title: 'Breakdown Insurance for Used Cars',
     metaTitle: 'Breakdown Insurance for Used Cars NZ | Second-Hand Vehicle MBI Comparison 2026',
     metaDescription: 'Breakdown insurance for used cars here. Compare MBI providers for second-hand vehicles. Understand eligibility, what\'s covered, and how to protect a used car purchase in 2026.',
     heroHeading: 'Breakdown Insurance for Used Cars',
@@ -93,7 +93,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'ev-mechanical-breakdown-insurance-nz',
-    title: 'EV Breakdown Insurance NZ',
+    title: 'EV Breakdown Insurance',
     metaTitle: 'EV Breakdown Insurance NZ 2026 | Electric Vehicle MBI Comparison New Zealand',
     metaDescription: 'Compare EV breakdown insurance in NZ for 2026. Traction battery cover, EV drivetrain protection, PHEV MBI. NZ now has 101,000 BEVs and 429,000 petrol hybrids — find the right cover.',
     heroHeading: 'EV Breakdown Insurance',
@@ -120,7 +120,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mechanical-breakdown-insurance-vs-warranty-nz',
-    title: 'Breakdown Insurance vs Extended Warranty NZ',
+    title: 'Breakdown Insurance vs Extended Warranty',
     metaTitle: 'Breakdown Insurance vs Extended Warranty NZ 2026 | MBI vs Warranty Comparison',
     metaDescription: 'What\'s the difference between breakdown insurance and an extended warranty in NZ? Compare MBI vs dealer warranty — regulation, cover, flexibility, and which suits your vehicle.',
     heroHeading: 'Breakdown Insurance vs Extended Warranty: What\'s the Difference?',
@@ -147,7 +147,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'compare-mechanical-breakdown-insurance-nz',
-    title: 'Compare Breakdown Insurance Providers NZ',
+    title: 'Compare Breakdown Insurance Providers',
     metaTitle: 'Compare Breakdown Insurance NZ 2026 | MBI Provider Comparison Tool',
     metaDescription: 'Compare mechanical breakdown insurance providers in New Zealand for 2026. Side-by-side comparison of Autosure, Provident, AA, NZVF, Quest and more — cover, limits, and claims.',
     heroHeading: 'Compare Breakdown Insurance Providers',
@@ -174,7 +174,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mechanical-breakdown-insurance-cost-nz',
-    title: 'How Much Does Breakdown Insurance Cost in NZ?',
+    title: 'How Much Does Breakdown Insurance Cost?',
     metaTitle: 'Breakdown Insurance Cost NZ 2026 | MBI Pricing Guide New Zealand',
     metaDescription: 'How much does mechanical breakdown insurance cost in NZ in 2026? MBI premium ranges, what affects pricing, and how vehicle age and provider choice drive your annual cost.',
     heroHeading: 'How Much Does Breakdown Insurance Cost?',
@@ -282,7 +282,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'japanese-import-breakdown-insurance-nz',
-    title: 'Japanese Import Breakdown Insurance NZ',
+    title: 'Japanese Import Breakdown Insurance',
     metaTitle: 'Japanese Import Breakdown Insurance NZ 2026 | MBI for Japanese Cars',
     metaDescription: 'Breakdown insurance for Japanese import vehicles here. MBI for Toyota, Honda, Nissan, Mazda and Mitsubishi imports. Understanding eligibility, coverage, and which providers suit Japanese cars.',
     heroHeading: 'Breakdown Insurance for Japanese Import Vehicles',
@@ -309,7 +309,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'roadside-assistance-breakdown-insurance-nz',
-    title: 'Roadside Assistance & Breakdown Cover NZ',
+    title: 'Roadside Assistance & Breakdown Cover',
     metaTitle: 'Roadside Assistance NZ 2026 | Breakdown Assistance Cover New Zealand',
     metaDescription: 'Compare roadside assistance and breakdown cover in NZ for 2026. Towing, battery, tyres, fuel, and accommodation cover. Standalone vs MBI-bundled roadside assistance compared.',
     heroHeading: 'Roadside Assistance & Breakdown Cover',
@@ -336,7 +336,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mechanical-breakdown-insurance-older-vehicles-nz',
-    title: 'Breakdown Insurance for Older Vehicles NZ',
+    title: 'Breakdown Insurance for Older Vehicles',
     metaTitle: 'Breakdown Insurance for Older Vehicles NZ 2026 | MBI for High Mileage Cars',
     metaDescription: 'Can you get breakdown insurance for older vehicles in NZ? MBI options for vehicles over 10 years old or with high mileage. Compare providers for older NZ cars in 2026.',
     heroHeading: 'Breakdown Insurance for Older Vehicles',
@@ -363,7 +363,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'dealer-mbi-vs-independent-mbi-nz',
-    title: 'Dealer Breakdown Insurance vs Independent MBI in NZ',
+    title: 'Dealer Breakdown Insurance vs Independent MBI',
     metaTitle: 'Dealer MBI vs Independent Breakdown Insurance NZ 2026 | What to Choose',
     metaDescription: 'Dealer breakdown insurance vs independent MBI — what\'s different, what to watch for, and how to make the right call when buying a used vehicle.',
     heroHeading: 'Dealer Breakdown Insurance vs Independent MBI',
@@ -390,7 +390,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'transmission-failure-cover-nz',
-    title: 'Transmission Failure Insurance NZ',
+    title: 'Transmission Failure Insurance',
     metaTitle: 'Transmission Failure Insurance NZ 2026 | Gearbox Breakdown Cover New Zealand',
     metaDescription: 'Transmission and gearbox failure cover here. A failed automatic transmission can cost $4,000–$12,000. Compare MBI providers that cover drivetrain and transmission repair.',
     heroHeading: 'Transmission Failure Insurance',
@@ -417,7 +417,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'engine-breakdown-cover-nz',
-    title: 'Engine Breakdown Cover NZ',
+    title: 'Engine Breakdown Cover',
     metaTitle: 'Engine Breakdown Cover NZ 2026 | Engine Failure Insurance New Zealand',
     metaDescription: 'Engine breakdown cover in NZ protects against engine failure costs of $5,000–$25,000+. Compare MBI providers covering engine failure for NZ used vehicles in 2026.',
     heroHeading: 'Engine Breakdown Cover',
@@ -444,7 +444,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mechanical-breakdown-insurance-exclusions-nz',
-    title: 'What Breakdown Insurance Doesn\'t Cover in NZ',
+    title: 'What Breakdown Insurance Doesn\'t Cover',
     metaTitle: 'Breakdown Insurance Exclusions NZ 2026 | What MBI Does NOT Cover',
     metaDescription: 'Understand mechanical breakdown insurance exclusions here. What MBI doesn\'t cover — wear and tear, pre-existing conditions, maintenance items — and how to read your policy correctly.',
     heroHeading: 'What Breakdown Insurance Doesn\'t Cover',
@@ -471,7 +471,7 @@ export const insurancePages: InsurancePage[] = [
   },
   {
     slug: 'mbi-benefits-nz',
-    title: 'Benefits of Breakdown Insurance in NZ',
+    title: 'Benefits of Breakdown Insurance',
     metaTitle: 'Breakdown Insurance Benefits NZ 2026 | Why MBI Is Worth It for NZ Vehicle Owners',
     metaDescription: 'Why mechanical breakdown insurance is worth it for NZ vehicle owners in 2026. The financial, practical, and peace-of-mind benefits of MBI for any vehicle, driver, or location.',
     heroHeading: 'The Benefits of Breakdown Insurance',

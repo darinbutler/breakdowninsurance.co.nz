@@ -11,29 +11,29 @@ const coverageTypes = [
 ];
 
 const mbiGuides = [
-  { label: 'Affordable Breakdown Insurance NZ', href: '/breakdown-insurance/cheap-mechanical-breakdown-insurance-nz' },
-  { label: 'Best Breakdown Insurance NZ 2026', href: '/breakdown-insurance/best-mechanical-breakdown-insurance-nz' },
-  { label: 'MBI for Used Cars NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-used-cars-nz' },
-  { label: 'EV Breakdown Insurance NZ', href: '/breakdown-insurance/ev-mechanical-breakdown-insurance-nz' },
-  { label: 'MBI vs Extended Warranty NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-vs-warranty-nz' },
-  { label: 'Compare MBI Providers NZ', href: '/breakdown-insurance/compare-mechanical-breakdown-insurance-nz' },
+  { label: 'Affordable Breakdown Insurance', href: '/breakdown-insurance/cheap-mechanical-breakdown-insurance-nz' },
+  { label: 'Best Breakdown Insurance 2026', href: '/breakdown-insurance/best-mechanical-breakdown-insurance-nz' },
+  { label: 'MBI for Used Cars', href: '/breakdown-insurance/mechanical-breakdown-insurance-used-cars-nz' },
+  { label: 'EV Breakdown Insurance', href: '/breakdown-insurance/ev-mechanical-breakdown-insurance-nz' },
+  { label: 'MBI vs Extended Warranty', href: '/breakdown-insurance/mechanical-breakdown-insurance-vs-warranty-nz' },
+  { label: 'Compare MBI Providers', href: '/breakdown-insurance/compare-mechanical-breakdown-insurance-nz' },
 ];
 
 const regionalGuides = [
   { label: 'Breakdown Insurance Auckland', href: '/breakdown-insurance/mechanical-breakdown-insurance-auckland' },
   { label: 'Breakdown Insurance Christchurch', href: '/breakdown-insurance/mechanical-breakdown-insurance-christchurch' },
   { label: 'Breakdown Insurance Wellington', href: '/breakdown-insurance/mechanical-breakdown-insurance-wellington' },
-  { label: 'Japanese Import MBI NZ', href: '/breakdown-insurance/japanese-import-breakdown-insurance-nz' },
-  { label: 'MBI for Older Vehicles NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-older-vehicles-nz' },
+  { label: 'Japanese Import MBI', href: '/breakdown-insurance/japanese-import-breakdown-insurance-nz' },
+  { label: 'MBI for Older Vehicles', href: '/breakdown-insurance/mechanical-breakdown-insurance-older-vehicles-nz' },
   { label: 'Roadside Assistance NZ', href: '/breakdown-insurance/roadside-assistance-breakdown-insurance-nz' },
 ];
 
 const moreGuides = [
-  { label: 'How Much Does MBI Cost NZ?', href: '/breakdown-insurance/mechanical-breakdown-insurance-cost-nz' },
-  { label: 'Transmission Failure Cover NZ', href: '/breakdown-insurance/transmission-failure-cover-nz' },
-  { label: 'Engine Breakdown Cover NZ', href: '/breakdown-insurance/engine-breakdown-cover-nz' },
-  { label: 'MBI Exclusions NZ', href: '/breakdown-insurance/mechanical-breakdown-insurance-exclusions-nz' },
-  { label: 'Why MBI Is Worth It in NZ', href: '/breakdown-insurance/mbi-benefits-nz' },
+  { label: 'How Much Does MBI Cost?', href: '/breakdown-insurance/mechanical-breakdown-insurance-cost-nz' },
+  { label: 'Transmission Failure Cover', href: '/breakdown-insurance/transmission-failure-cover-nz' },
+  { label: 'Engine Breakdown Cover', href: '/breakdown-insurance/engine-breakdown-cover-nz' },
+  { label: 'MBI Exclusions Explained', href: '/breakdown-insurance/mechanical-breakdown-insurance-exclusions-nz' },
+  { label: 'Why MBI Is Worth It', href: '/breakdown-insurance/mbi-benefits-nz' },
   { label: 'Dealer MBI vs Independent MBI', href: '/breakdown-insurance/dealer-mbi-vs-independent-mbi-nz' },
 ];
 
