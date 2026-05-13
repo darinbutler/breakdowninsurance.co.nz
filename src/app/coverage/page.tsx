@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { coverageTypes } from '@/data/coverage-types';
 
 export const metadata: Metadata = {
-  title: 'Breakdown Insurance Coverage Types NZ | Mechanical Breakdown Insurance Cover Options',
+  title: 'Breakdown Insurance Coverage Types | Mechanical Breakdown Insurance Cover Options',
   description: 'Explore all mechanical breakdown insurance coverage types available in New Zealand — comprehensive cover, EV battery protection, drivetrain, electrical systems, and roadside assistance.',
   alternates: { canonical: 'https://breakdowninsurance.co.nz/coverage' },
 };
@@ -17,7 +17,7 @@ export default function CoveragePage() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/30" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Breakdown Insurance Coverage Types in NZ</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Breakdown Insurance Coverage Types</h1>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">From comprehensive engine and transmission cover to EV battery protection — understand all your MBI options before you compare.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
