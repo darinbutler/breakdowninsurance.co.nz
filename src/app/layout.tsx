@@ -45,6 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BreakdownInsurance.co.nz | Compare Breakdown Insurance NZ",
     description: "Compare NZ's leading MBI providers side by side. Any vehicle, any driver, any location. Independent — no provider pays for placement.",
+    images: ["https://www.breakdowninsurance.co.nz/android-chrome-512x512.png"],
   },
   icons: {
     icon: [
@@ -97,7 +98,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased scroll-smooth">
+    <html lang="en-NZ" className="h-full antialiased scroll-smooth">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#f59e0b" />

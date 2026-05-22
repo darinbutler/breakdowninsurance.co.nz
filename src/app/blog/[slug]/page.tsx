@@ -10,15 +10,34 @@ export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }
 
+const BASE_URL = 'https://www.breakdowninsurance.co.nz';
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return { title: 'Not Found' };
+  const absoluteImage = `${BASE_URL}${post.image}`;
   return {
     title: `${post.title} | BreakdownInsurance.co.nz`,
     description: post.excerpt,
-    alternates: { canonical: `https://www.breakdowninsurance.co.nz/blog/${slug}` },
-    openGraph: { title: post.title, description: post.excerpt, images: [{ url: post.image }] },
+    authors: [{ name: post.author, url: BASE_URL }],
+    alternates: { canonical: `${BASE_URL}/blog/${slug}` },
+    openGraph: {
+      type: 'article',
+      title: post.title,
+      description: post.excerpt,
+      url: `${BASE_URL}/blog/${slug}`,
+      siteName: 'BreakdownInsurance.co.nz',
+      publishedTime: post.date,
+      authors: [post.author],
+      images: [{ url: absoluteImage, width: 1200, height: 800, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [absoluteImage],
+    },
   };
 }
 
@@ -28,9 +47,39 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) notFound();
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
+  const pageUrl = `${BASE_URL}/blog/${slug}`;
+  const absoluteImage = `${BASE_URL}${post.image}`;
+
+  const blogPostingSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    url: pageUrl,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: 'BreakdownInsurance.co.nz Editorial Team',
+      url: `${BASE_URL}/about`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'BreakdownInsurance.co.nz',
+      url: BASE_URL,
+      logo: { '@type': 'ImageObject', url: `${BASE_URL}/android-chrome-512x512.png` },
+    },
+    image: { '@type': 'ImageObject', url: absoluteImage },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    articleSection: post.category,
+    keywords: ['mechanical breakdown insurance', 'MBI', 'breakdown cover NZ', post.category.toLowerCase()],
+    inLanguage: 'en-NZ',
+  };
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }} />
+
       <BreadcrumbSchema items={[
         { name: 'Home', url: 'https://www.breakdowninsurance.co.nz' },
         { name: 'Blog', url: 'https://www.breakdowninsurance.co.nz/blog' },
@@ -72,7 +121,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             <aside className="lg:col-span-1 space-y-6">
               <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-xl mb-2">Compare Providers</h3>
-                <p className="text-amber-100 text-sm mb-5">See all 6 breakdown insurance providers side by side — cover, claim limits, EV options, and more.</p>
+                <p className="text-amber-100 text-sm mb-5">See all 8 breakdown insurance providers side by side — cover, claim limits, EV options, and more.</p>
                 <Link href="/compare" className="block w-full text-center bg-white text-amber-700 font-bold py-3 rounded-xl hover:bg-amber-50 transition-colors">
                   See Full Comparison →
                 </Link>

@@ -48,7 +48,7 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
   const relatedPages = insurancePages.filter((p) => p.slug !== slug).slice(0, 5);
   const pageUrl = `https://www.breakdowninsurance.co.nz/breakdown-insurance/${slug}`;
   const publishDate = '2026-04-10';
-  const modifiedDate = '2026-05-13';
+  const modifiedDate = '2026-05-22';
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -129,7 +129,7 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
               {/* Mid-content CTA */}
               <div className="mt-12 bg-gradient-to-r from-amber-500 to-orange-600 rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-3">Compare Providers Side by Side</h3>
-                <p className="text-amber-100 mb-6 max-w-lg">See all six leading MBI providers in one place — component cover, claim limits, EV capability, and workshop access. Independent, with no provider paying for placement.</p>
+                <p className="text-amber-100 mb-6 max-w-lg">See all eight leading MBI providers in one place — component cover, claim limits, EV capability, and workshop access. Independent, with no provider paying for placement.</p>
                 <Link href="/compare" className="inline-flex items-center gap-2 bg-white text-amber-700 font-bold px-8 py-4 rounded-xl shadow-lg hover:bg-amber-50 transition-colors">
                   See Full Comparison
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -160,7 +160,7 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
               {/* Compare CTA */}
               <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white sticky top-6">
                 <h3 className="font-bold text-xl mb-2">Compare Providers</h3>
-                <p className="text-amber-100 text-sm mb-5 leading-relaxed">All six leading breakdown insurance providers compared side by side — cover, limits, claims, and more.</p>
+                <p className="text-amber-100 text-sm mb-5 leading-relaxed">All eight breakdown insurance providers compared side by side — cover, limits, claims, and more.</p>
                 <Link href="/compare" className="block w-full text-center bg-white text-amber-700 font-bold py-3 rounded-xl hover:bg-amber-50 transition-colors text-sm">
                   See Full Comparison →
                 </Link>
@@ -203,7 +203,7 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
                 <h3 className="font-bold text-base mb-4">Why Compare with Us?</h3>
                 {[
                   { icon: '⚖️', text: 'Independent — no provider pays for placement' },
-                  { icon: '🔍', text: '6 providers compared side by side' },
+                  { icon: '🔍', text: '8 providers compared side by side' },
                   { icon: '🔗', text: 'Direct links to each provider\'s website' },
                   { icon: '📅', text: 'Updated with 2026 market data' },
                 ].map((item) => (

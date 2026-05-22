@@ -45,7 +45,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
   const otherTypes = coverageTypes.filter((t) => t.slug !== slug);
   const pageUrl = `https://www.breakdowninsurance.co.nz/types/${slug}`;
   const publishDate = '2026-04-10';
-  const modifiedDate = '2026-05-13';
+  const modifiedDate = '2026-05-22';
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -194,7 +194,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
               {/* Compare CTA */}
               <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white sticky top-6">
                 <h3 className="font-bold text-xl mb-2">Compare Providers</h3>
-                <p className="text-amber-100 text-sm mb-5">See all 6 providers side by side — cover, claim limits, EV options, and more.</p>
+                <p className="text-amber-100 text-sm mb-5">See all 8 providers side by side — cover, claim limits, EV options, and more.</p>
                 <Link href="/compare" className="block w-full text-center bg-white text-amber-700 font-bold py-3 rounded-xl hover:bg-amber-50 transition-colors">
                   See Full Comparison →
                 </Link>
@@ -231,7 +231,7 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
                 <h3 className="font-bold text-base mb-4">Why Compare with Us?</h3>
                 {[
                   { icon: '⚖️', text: 'Independent — no provider pays for placement' },
-                  { icon: '🔍', text: '6 providers compared side by side' },
+                  { icon: '🔍', text: '8 providers compared side by side' },
                   { icon: '🔗', text: 'Direct links to each provider\'s website' },
                   { icon: '📅', text: 'Updated with 2026 market data' },
                 ].map((item) => (
