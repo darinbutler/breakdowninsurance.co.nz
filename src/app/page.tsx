@@ -116,7 +116,7 @@ export default function HomePage() {
             <div className="relative">
               <div
                 className="rounded-2xl overflow-hidden shadow-2xl h-80 lg:h-96 bg-cover bg-center"
-                style={{ backgroundImage: 'url(/hero-drivetrain.jpg' }}
+                style={{ backgroundImage: 'url(/hero-drivetrain.jpg)' }}
               />
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-xl p-5 border border-amber-200">
                 <div className="text-2xl font-extrabold text-amber-600">$0</div>
