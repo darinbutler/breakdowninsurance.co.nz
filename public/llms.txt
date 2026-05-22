@@ -1,5 +1,5 @@
 # BreakdownInsurance.co.nz — LLM Context File
-# Generated: 2026-05-13
+# Generated: 2026-05-22
 
 ## Site Overview
 
@@ -36,19 +36,16 @@ New Zealand vehicle owners seeking mechanical breakdown insurance, particularly:
 - Motor industry: 65,000 employees, 16,000 businesses, $6.8B GDP (1.9% of NZ total)
 - Workshop repair costs: up ~18% over two years (ICNZ)
 
-## NZ MBI Providers Covered
+## NZ MBI Providers Covered (Comparison Site — 8 Providers)
 
-- Autosure (largest/longest-established; underwrites AA Mechanical Care)
-- Provident Insurance (Takapuna; 100+ years in NZ)
-- AA Mechanical Care — Advantage ($5k/claim) and Advantage Plus ($10k–$15k/claim); 10% AA member discount
-- NZVF (policies up to 4 years)
-- Janssen (25+ years in market)
-- Avanti Finance (one of NZ's largest MBI distributors)
-- Quest (Kiwi-owned independent)
-- Beneficial (est. 2002)
-- State Insurance
-- Autolife
-- Stadium Cars (Canterbury)
+- Autosure (since 1971; largest NZ MBI specialist; B++ AM Best; underwrites AA Mechanical Care; tiers: Extreme Plus / Smart Cover; online quotes)
+- AA Mechanical Care (underwritten by Autosure; tiers: Assist / Assist Plus; covers up to 20 yrs / 300,000km; 10% AA member discount; EV pack up to $10k)
+- Assurant Vehicle Care (formerly Protecta, rebranded Jan 2025; dealer-only; tiers: Kinetic / Optimum / Maxi; up to $15k/claim; vehicles ≤15 yrs / 250,000km)
+- Provident Insurance (100+ years NZ; tiers: Classic / Pinnacle; no EV cover; dealer-sold)
+- Autolife (subsidiary of Beneficial Insurance Ltd; 96% claims within 14 days; tiers: Standard / Comprehensive; EV cover; online application)
+- Quest Insurance (Kiwi-owned; 25+ years; tiers: Essential / Extended; petrol/diesel only; no EV cover)
+- Janssen Insurance (25+ years; underwritten by Quest; tiers: EcoCover / Elite Cover / Elite Eco Cover; dedicated EV/hybrid tier; unlimited roadside; single excess per event)
+- MWS — Mechanical Warranty Services (30+ years; tiers: Standard / Platinum; direct-to-repairer payment; petrol/diesel only; direct purchase available)
 
 ## Site Structure
 
@@ -72,7 +69,7 @@ New Zealand vehicle owners seeking mechanical breakdown insurance, particularly:
 - /types/roadside-assistance — Roadside Assistance
 - /types/extended-warranty — Extended Warranty
 
-### SEO Content Pages (/breakdown-insurance/[slug]) — 18 pages
+### SEO Content Pages (/breakdown-insurance/[slug]) — 20 pages
 - cheap-mechanical-breakdown-insurance-nz
 - best-mechanical-breakdown-insurance-nz
 - mechanical-breakdown-insurance-used-cars-nz
@@ -91,9 +88,22 @@ New Zealand vehicle owners seeking mechanical breakdown insurance, particularly:
 - engine-breakdown-cover-nz
 - mechanical-breakdown-insurance-exclusions-nz
 - mbi-benefits-nz
+- janssen-insurance-mechanical-breakdown-nz (NEW — Janssen Insurance MBI review page)
+- mws-mechanical-warranty-services-nz (NEW — MWS review page)
 
-### Blog / Resources
-Multiple articles covering NZ MBI market conditions, EV cover, claims guidance, provider comparisons, and industry news.
+### Blog / Resources — 12 Articles
+- complete-guide-mechanical-breakdown-insurance-nz
+- mbi-vs-extended-warranty-nz
+- how-much-does-mbi-cost-nz
+- top-reasons-mbi-claims-declined-nz
+- ev-hybrid-breakdown-insurance-nz
+- is-mbi-worth-it-nz
+- japanese-import-mbi-nz
+- choose-right-mbi-policy-nz
+- what-mbi-actually-covers-nz
+- assurant-nz-mbi-review-2026 (NEW — Protecta rebrand explained)
+- janssen-insurance-mbi-review-nz-2026 (NEW — Janssen Insurance review)
+- ev-hybrid-mbi-nz-2026-which-providers-cover-battery (NEW — EV MBI provider guide)
 
 ## Brand Voice
 

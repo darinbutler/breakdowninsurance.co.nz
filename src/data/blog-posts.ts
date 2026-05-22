@@ -238,7 +238,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '9 min read',
     category: 'Coverage Explained',
     content: `<h2>What Breakdown Insurance Is Designed to Cover</h2>
-<p>Mechanical Breakdown Insurance is specifically designed to cover sudden, unexpected mechanical and electrical failures that are not the result of an accident, wear and tear, or deliberate neglect. The policy responds when a part fails in a way that wasn't predictable and wasn't caused by the driver's actions. This is the fundamental principle — "unexpected failure of a covered component."</p>
+<p>Mechanical Breakdown Insurance is specifically designed to cover sudden, unexpected mechanical and electrical failures that are not the result of an accident, wear and tear, or deliberate neglect. The policy responds when a part fails in a way that was not predictable and was not caused by the driver's actions. This is the fundamental principle — "unexpected failure of a covered component."</p>
 
 <h2>Engine Components Typically Covered</h2>
 <p>Comprehensive breakdown insurance policies typically cover engine internals including: pistons, rings, and cylinders; crankshaft, camshaft, and bearings; connecting rods; oil pump; cylinder head and associated gaskets; rocker arms and valve train; hydraulic lifters; engine block cracks; and oil seals where their failure causes covered component damage. Note that timing belts are frequently excluded as a scheduled maintenance item, even though their failure can be catastrophic.</p>
@@ -253,5 +253,108 @@ export const blogPosts: BlogPost[] = [
 <p>To avoid surprise, here is what NZ breakdown insurance policies typically exclude explicitly: tyres (any tyre-related failure), brake pads and disc rotors, clutch friction disc and pressure plate, oil, coolant, and all consumables, wiper blades, filters, spark plugs, glow plugs, drive belts (timing belt, accessory belts), bodywork, trim, upholstery, glass and mirrors, exhaust system (including catalytic converter in most policies), wheels and alloys, modifications not disclosed at inception, and any failure attributed to prior damage or neglect.</p>
 
 <p>The practical implication: breakdown insurance covers the expensive, unpredictable failures. It does not replace the maintenance of your vehicle. Both are your responsibility — breakdown insurance provides a safety net for the unexpected failures that good maintenance cannot fully prevent.</p>`,
+  },
+  {
+    slug: 'assurant-nz-mbi-review-2026',
+    title: 'Assurant NZ MBI Review 2026 — The Protecta Rebrand Explained',
+    excerpt: 'Assurant rebranded from Protecta in January 2025. What changed, what stayed the same, and is Assurant Vehicle Care the right MBI choice for your vehicle?',
+    date: '2026-05-15',
+    author: 'BreakdownInsurance.co.nz',
+    image: '/hero-2.jpg',
+    readTime: '8 min read',
+    category: 'Provider Reviews',
+    content: `<h2>From Protecta to Assurant: What Changed in January 2025?</h2>
+<p>In January 2025, Protecta Insurance — one of the longest-established mechanical breakdown insurance providers in New Zealand — rebranded as Assurant Vehicle Care. The change reflected Protecta's acquisition by Assurant Inc., a global speciality insurer headquartered in the United States with operations across 21 countries. For existing Protecta policyholders and the NZ dealer network that distributed Protecta products, the rebrand raised a straightforward question: is this the same product with a new name, or has something substantively changed?</p>
+
+<p>The short answer is that the core product structure has been maintained, but the rebrand brought product refinements including the formalisation of a three-tier structure: Kinetic, Optimum, and Maxi. The Maxi tier retains Assurant's position as the highest-claim-limit MBI product in the NZ market at up to $15,000 per claim — a meaningful differentiator where most providers cap at $5,000–$10,000.</p>
+
+<h2>Assurant Vehicle Care Product Tiers</h2>
+<p><strong>Kinetic</strong> is the entry-level tier for newer or lower-mileage vehicles, covering core mechanical components — engine internals, automatic transmission, and primary electrical systems — at a lower premium than the higher tiers.</p>
+
+<p><strong>Optimum</strong> extends coverage to a broader component list including cooling systems, fuel injection, turbochargers, and air conditioning. Claim limits at this tier are typically $6,000–$10,000, appropriate for most common used vehicle repair scenarios.</p>
+
+<p><strong>Maxi</strong> is Assurant's premium tier with up to $15,000 per claim — the highest available from any NZ MBI provider. Designed for high-value vehicles, European makes, and premium Japanese models where individual component replacement costs regularly exceed standard limits. A BMW 5 Series automatic gearbox rebuild or a Mercedes-Benz ECU replacement can each exceed $10,000 in parts and labour.</p>
+
+<h2>EV Coverage Under Assurant</h2>
+<p>Assurant Vehicle Care offers EV-specific plan options, including an Uber/Taxi benefit for EV owners during a claim period. EV cover eligibility conditions apply — not all EVs qualify, and the policy schedule specifies restrictions based on vehicle age, battery state, and eligibility thresholds. Confirm traction battery coverage explicitly with the dealer distributing Assurant products.</p>
+
+<h2>Dealer-Only Distribution: The Key Limitation</h2>
+<p>The most significant practical limitation is Assurant's dealer-only distribution model. Unlike Autosure, Autolife, Quest, or Janssen Insurance — which offer direct or online quote options — Assurant products are sold exclusively through franchised and independent car dealers. Consumers who have already purchased a vehicle cannot access Assurant cover independently.</p>
+
+<p>For dealer-purchase scenarios, Assurant's strong claim limits and well-established dealer network make it worth asking about — particularly for higher-value vehicle purchases where the Maxi tier's $15,000 per-claim limit provides substantially greater protection than the $5,000–$10,000 limits typical of other providers.</p>
+
+<h2>Eligibility: Vehicles Up to 15 Years / 250,000km</h2>
+<p>Assurant sets a maximum vehicle age of 15 years and 250,000km for new policy inception — broadly typical of the market. AA Mechanical Care extends to 20 years / 300,000km, which is notably more generous for older or higher-mileage vehicles. If your vehicle exceeds Assurant's eligibility threshold, AA Mechanical Care or Autolife are worth exploring.</p>
+
+<h2>Is Assurant the Right MBI for Your Vehicle?</h2>
+<p>Assurant Vehicle Care is best suited to buyers of higher-value vehicles — European makes, premium Japanese models, or EVs — who purchase through a dealer and want the highest available claim limit in the NZ market. For consumers arranging MBI independently after buying a vehicle, Autosure, Autolife, Quest, or Janssen Insurance offer comparable cover with direct purchase options. Our comparison page sets all providers side by side so you can find the best fit for your vehicle.</p>`,
+  },
+  {
+    slug: 'janssen-insurance-mbi-review-nz-2026',
+    title: 'Janssen Insurance MBI Review NZ 2026',
+    excerpt: 'Janssen Insurance has been in the NZ breakdown insurance market for over 25 years. Here is what makes them different — and whether their EV and hybrid cover is worth considering.',
+    date: '2026-05-10',
+    author: 'BreakdownInsurance.co.nz',
+    image: '/hero-3.jpg',
+    readTime: '7 min read',
+    category: 'Provider Reviews',
+    content: `<h2>Who Is Janssen Insurance?</h2>
+<p>Janssen Insurance is one of the less prominently marketed but well-established players in the NZ mechanical breakdown insurance market, with over 25 years of operation. Underwritten by Quest Insurance — a Kiwi-owned insurer — Janssen operates as a specialist MBI brand with a distinct product range that includes a dedicated EV and hybrid tier, setting them apart from several competitors.</p>
+
+<p>Unlike Assurant, which is dealer-only, Janssen offers accessible quoting through their website, making them viable for consumers seeking independent cover outside the dealer channel. This accessibility, combined with long market tenure and specialist product development, makes Janssen worth serious consideration alongside the larger and more visible providers.</p>
+
+<h2>Janssen's Three-Tier Product Structure</h2>
+<p><strong>EcoCover</strong> is the entry-level tier with a claim limit of up to $5,000, appropriate for owners of newer or lower-mileage Japanese or Korean used vehicles where major failure probability is lower.</p>
+
+<p><strong>Elite Cover</strong> is the mid-to-premium tier for petrol and diesel vehicles, with a claim limit of up to $10,000, covering a wider component list including cooling systems, fuel injection, turbochargers, and air conditioning.</p>
+
+<p><strong>Elite Eco Cover</strong> is Janssen's dedicated EV and hybrid tier — the product element that most clearly differentiates them in the market. This tier provides specific coverage for EV and plug-in hybrid drivetrain components, including traction battery systems. With NZ's BEV fleet exceeding 101,000 vehicles and 429,000 petrol hybrids on the road, dedicated EV/PHEV MBI cover addresses a genuine and growing need that not all providers fully address.</p>
+
+<h2>Standout Features: Unlimited Roadside and Single Excess</h2>
+<p>Two features stand out in the competitive landscape. First, unlimited roadside assistance callouts are included — unlike some providers that cap annual roadside incidents, unlimited callouts provide genuine peace of mind for high-mileage drivers. Second, Janssen applies a single excess for multiple repairs arising from a single breakdown event. Where some policies charge an excess for each separate repair item, Janssen's single-excess structure means only one excess applies when multiple components fail in the same event — a consumer-friendly feature that reduces out-of-pocket exposure in complex repair scenarios.</p>
+
+<p>Accommodation benefits of $300–$500 are included for breakdowns more than 120km from home.</p>
+
+<h2>Underwriting Relationship with Quest Insurance</h2>
+<p>Janssen products are underwritten by Quest Insurance, which is Kiwi-owned and has operated in the NZ MBI market for over 25 years. This provides experienced local financial backing and claims-handling infrastructure. The Janssen brand functions as a specialist product line within Quest's broader MBI operation, with its own dedicated product development and consumer-facing brand identity.</p>
+
+<h2>Who Is Janssen Insurance Best Suited To?</h2>
+<p>Janssen is particularly well-suited to three customer profiles: EV and PHEV owners wanting dedicated battery cover under Elite Eco Cover; drivers seeking independent MBI with clear online quote accessibility; and reliability-conscious drivers who value unlimited roadside assistance and the single-excess feature. Our comparison page shows all providers side by side to help you find the best fit for your vehicle.</p>`,
+  },
+  {
+    slug: 'ev-hybrid-mbi-nz-2026-which-providers-cover-battery',
+    title: 'EV & Hybrid Breakdown Insurance NZ 2026: Which Providers Cover Your Battery?',
+    excerpt: 'NZ now has 101,000 BEVs and 429,000 hybrid vehicles. Traction battery replacement costs $15,000–$30,000+. Not all MBI providers cover it — here is who does and what to look for.',
+    date: '2026-05-05',
+    author: 'BreakdownInsurance.co.nz',
+    image: '/hero-1.jpg',
+    readTime: '9 min read',
+    category: 'EV Insurance',
+    content: `<h2>The EV Battery Risk That Most Drivers Underestimate</h2>
+<p>New Zealand's electric vehicle fleet has grown rapidly. As of mid-2026, there are over 101,000 battery electric vehicles (BEVs) and approximately 429,000 petrol hybrid vehicles on our roads. The early wave of EV buyers purchased vehicles primarily between 2016 and 2022 — Nissan LEAFs, Mitsubishi Outlander PHEVs, Hyundai Konas, and Tesla Model 3s. As these vehicles age and approach or exit their manufacturer battery warranties, the financial risk of traction battery degradation or failure becomes very real.</p>
+
+<p>Manufacturer battery warranties typically cover traction battery packs for 8 years or 160,000km against significant capacity degradation (below 70% of original capacity). When these warranties expire — as they are increasingly doing for NZ's early-adopter EV fleet — owners face a potential liability of $15,000–$30,000 for battery replacement. For a Nissan LEAF purchased second-hand for $18,000, a $20,000 battery replacement bill can make the vehicle economically unviable. Mechanical Breakdown Insurance that genuinely covers the traction battery is the most effective financial protection against this risk.</p>
+
+<h2>Which NZ MBI Providers Cover EV and Hybrid Batteries?</h2>
+<p><strong>Autosure</strong> offers EV and hybrid battery cover under its Extreme Plus tier. As NZ's longest-established MBI specialist (since 1971) with a B++ AM Best rating, Autosure's EV cover is backed by strong financial credentials. EV battery cover eligibility conditions apply — confirm terms for your specific vehicle when quoting.</p>
+
+<p><strong>AA Mechanical Care</strong>, underwritten by Autosure, offers an EV package under its Assist Plus tier with battery cover up to $10,000. The $10,000 cap may provide partial rather than complete cover for larger battery packs, but significantly reduces out-of-pocket exposure. AA members receive a 10% premium discount and benefit from the AA's extensive nationwide roadside network.</p>
+
+<p><strong>Assurant Vehicle Care</strong> offers EV-specific plan options including an Uber/Taxi benefit during the claim period — useful for EV owners who depend on their vehicle daily. Assurant is dealer-sold only and eligibility thresholds apply. Confirm traction battery coverage explicitly when purchasing through a dealer.</p>
+
+<p><strong>Janssen Insurance</strong> offers a dedicated Elite Eco Cover tier specifically designed for EV and plug-in hybrid vehicles, with explicit traction battery coverage — one of the clearest product commitments to EV-specific MBI in the NZ market. Janssen's online quoting makes this accessible without dealer involvement.</p>
+
+<p><strong>Autolife</strong> lists EV cover among its policy features. EV cover conditions and claim limits should be confirmed at quote for your specific vehicle. Autolife's subsidiary relationship with Beneficial Insurance provides financial backing.</p>
+
+<p><strong>Provident Insurance</strong>, <strong>Quest Insurance</strong>, and <strong>MWS</strong> do not currently offer EV or hybrid battery cover. EV owners should look to the providers above for battery risk protection.</p>
+
+<h2>What to Look For in EV MBI Cover</h2>
+<p>When evaluating EV or hybrid MBI, ask five specific questions. First: does the policy explicitly cover the traction battery pack — not just "electrical components"? Second: is there a minimum remaining capacity threshold, and what is it? Third: what is the maximum claim limit for a battery replacement event — is it enough to cover your battery pack? Fourth: does cover extend to the battery management system (BMS), on-board charger, and thermal management components? Fifth: are PHEV-specific components — hybrid control module, regenerative braking system, plug-in charging system — explicitly covered?</p>
+
+<h2>PHEV-Specific Considerations</h2>
+<p>The Mitsubishi Outlander PHEV — one of the most popular vehicles on our roads — carries both a petrol drivetrain and a hybrid-specific electrical system. A good PHEV MBI policy covers both. Some standard MBI policies cover the petrol mechanical components but are ambiguous about the hybrid-specific electrical components. Janssen's Elite Eco Cover and AA Mechanical Care's EV package both address PHEV coverage more explicitly than most alternatives.</p>
+
+<h2>Timing Your EV MBI Purchase</h2>
+<p>The best time to arrange EV breakdown insurance is before any known battery issues arise — ideally at or shortly after vehicle purchase. Pre-existing conditions are excluded under all MBI policies. For second-hand EV buyers, arranging cover promptly with the vehicle in good condition and ideally supported by a pre-purchase battery health report establishes the cleanest possible baseline for future claims.</p>`,
   },
 ];
