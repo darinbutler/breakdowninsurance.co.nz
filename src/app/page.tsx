@@ -11,18 +11,18 @@ import apifyContent from '@/data/apify-content.json';
 export const metadata: Metadata = {
   title: 'BreakdownInsurance.co.nz | Mechanical Breakdown Insurance NZ | Compare & Save',
   description: 'Compare mechanical breakdown insurance in New Zealand. Independent breakdown insurance comparison from leading NZ providers. Engine, transmission, electrical, EV battery cover.',
-  alternates: { canonical: 'https://breakdowninsurance.co.nz' },
+  alternates: { canonical: 'https://www.breakdowninsurance.co.nz' },
 };
 
 const schemaOrg = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'BreakdownInsurance.co.nz',
-  url: 'https://breakdowninsurance.co.nz',
+  url: 'https://www.breakdowninsurance.co.nz',
   description: 'Independent mechanical breakdown insurance information and comparison service.',
   potentialAction: {
     '@type': 'SearchAction',
-    target: 'https://breakdowninsurance.co.nz/blog?q={search_term_string}',
+    target: 'https://www.breakdowninsurance.co.nz/blog?q={search_term_string}',
     'query-input': 'required name=search_term_string',
   },
 };
@@ -116,7 +116,7 @@ export default function HomePage() {
             <div className="relative">
               <div
                 className="rounded-2xl overflow-hidden shadow-2xl h-80 lg:h-96 bg-cover bg-center"
-                style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80)' }}
+                style={{ backgroundImage: 'url(/hero-drivetrain.jpg' }}
               />
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-xl p-5 border border-amber-200">
                 <div className="text-2xl font-extrabold text-amber-600">$0</div>

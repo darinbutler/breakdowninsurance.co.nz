@@ -7,12 +7,12 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 export const dynamicParams = false;
 
 const heroImages: Record<string, string> = {
-  comprehensive: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80',
-  drivetrain: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80',
-  electrical: 'https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=1600&q=80',
-  'ev-hybrid': 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&q=80',
-  'roadside-assistance': 'https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=1600&q=80',
-  'extended-warranty': 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80',
+  comprehensive: '/hero-car-parked.jpg',
+  drivetrain: '/hero-drivetrain.jpg',
+  electrical: '/hero-car-electrical.jpg',
+  'ev-hybrid': '/hero-ev-hybrid.jpg',
+  'roadside-assistance': '/hero-suv.jpg',
+  'extended-warranty': '/hero-mbi-guide.jpg',
 };
 
 export async function generateStaticParams() {
@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: type.metaTitle,
     description: type.metaDescription,
-    alternates: { canonical: `https://breakdowninsurance.co.nz/types/${slug}` },
+    alternates: { canonical: `https://www.breakdowninsurance.co.nz/types/${slug}` },
     openGraph: {
       title: type.metaTitle,
       description: type.metaDescription,
-      url: `https://breakdowninsurance.co.nz/types/${slug}`,
+      url: `https://www.breakdowninsurance.co.nz/types/${slug}`,
       type: 'article',
     },
   };
@@ -41,9 +41,9 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
   const type = coverageTypes.find((t) => t.slug === slug);
   if (!type) notFound();
 
-  const imageUrl = heroImages[slug] || 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80';
+  const imageUrl = heroImages[slug] || '/hero-car-highway.jpg';
   const otherTypes = coverageTypes.filter((t) => t.slug !== slug);
-  const pageUrl = `https://breakdowninsurance.co.nz/types/${slug}`;
+  const pageUrl = `https://www.breakdowninsurance.co.nz/types/${slug}`;
   const publishDate = '2026-04-10';
   const modifiedDate = '2026-05-13';
 
@@ -58,13 +58,13 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
     author: {
       '@type': 'Organization',
       name: 'BreakdownInsurance.co.nz Editorial Team',
-      url: 'https://breakdowninsurance.co.nz/about',
+      url: 'https://www.breakdowninsurance.co.nz/about',
     },
     publisher: {
       '@type': 'Organization',
       name: 'BreakdownInsurance.co.nz',
-      url: 'https://breakdowninsurance.co.nz',
-      logo: { '@type': 'ImageObject', url: 'https://breakdowninsurance.co.nz/android-chrome-512x512.png' },
+      url: 'https://www.breakdowninsurance.co.nz',
+      logo: { '@type': 'ImageObject', url: 'https://www.breakdowninsurance.co.nz/android-chrome-512x512.png' },
     },
     image: imageUrl,
     mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
@@ -86,8 +86,8 @@ export default async function CoverageTypePage({ params }: { params: Promise<{ s
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
 
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://breakdowninsurance.co.nz' },
-        { name: 'Coverage Types', url: 'https://breakdowninsurance.co.nz/coverage' },
+        { name: 'Home', url: 'https://www.breakdowninsurance.co.nz' },
+        { name: 'Coverage Types', url: 'https://www.breakdowninsurance.co.nz/coverage' },
         { name: type.title, url: pageUrl },
       ]} />
 

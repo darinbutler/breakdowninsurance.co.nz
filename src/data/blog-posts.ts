@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Everything you need to know about breakdown insurance — from what\'s covered to how to choose the right policy for your vehicle.',
     date: '2026-04-08',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80',
+    image: '/hero-car-highway.jpg',
     readTime: '10 min read',
     category: 'Insurance Guides',
     content: `<h2>What Is Mechanical Breakdown Insurance?</h2>
@@ -53,7 +53,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Used car buyers face a choice between dealer-offered extended warranties and independent breakdown insurance policies. This guide explains which is right for you.',
     date: '2026-04-05',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&q=80',
+    image: '/hero-car-road.jpg',
     readTime: '7 min read',
     category: 'Coverage Explained',
     content: `<h2>The Core Difference</h2>
@@ -80,7 +80,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'A transparent breakdown of breakdown insurance pricing — what factors affect your premium and how to get the best value.',
     date: '2026-04-01',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=800&q=80',
+    image: '/hero-suv.jpg',
     readTime: '6 min read',
     category: 'Money & Pricing',
     content: `<h2>Breakdown Insurance Premium Ranges</h2>
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Avoid the most common breakdown insurance claim pitfalls that drivers face. Know your policy and protect your right to claim.',
     date: '2026-03-28',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&q=80',
+    image: '/hero-workshop.jpg',
     readTime: '8 min read',
     category: 'Claims Guide',
     content: `<h2>Why Breakdown Insurance Claims Get Declined</h2>
@@ -135,7 +135,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Electric vehicle ownership in NZ is growing fast. Here\'s what EV and hybrid owners need to know about specialised breakdown insurance cover for their vehicles.',
     date: '2026-03-22',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=800&q=80',
+    image: '/hero-car-electrical.jpg',
     readTime: '9 min read',
     category: 'EV Insurance',
     content: `<h2>The Growing EV Fleet</h2>
@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Does Mechanical Breakdown Insurance actually pay off? We run the numbers for different vehicle profiles to help you decide.',
     date: '2026-03-15',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80',
+    image: '/hero-car-parked.jpg',
     readTime: '7 min read',
     category: 'Insurance Guides',
     content: `<h2>The Central Question</h2>
@@ -185,7 +185,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Japanese imports dominate the NZ used car market. Here\'s how breakdown insurance works specifically for Japanese-sourced vehicles.',
     date: '2026-03-10',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: '/hero-drivetrain.jpg',
     readTime: '8 min read',
     category: 'Insurance Guides',
     content: `<h2>Japanese Imports in the Used Car Market</h2>
@@ -209,7 +209,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'With multiple breakdown insurance providers and policy types in NZ, how do you pick the right one? A practical guide to matching cover to your needs.',
     date: '2026-03-05',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&q=80',
+    image: '/hero-ev-hybrid.jpg',
     readTime: '6 min read',
     category: 'Money & Pricing',
     content: `<h2>Start With Your Vehicle Profile</h2>
@@ -234,7 +234,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Cut through the jargon and understand exactly what your breakdown insurance policy covers — and what it doesn\'t. The definitive NZ guide.',
     date: '2026-02-28',
     author: 'BreakdownInsurance.co.nz',
-    image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&q=80',
+    image: '/hero-car-interior.jpg',
     readTime: '9 min read',
     category: 'Coverage Explained',
     content: `<h2>What Breakdown Insurance Is Designed to Cover</h2>

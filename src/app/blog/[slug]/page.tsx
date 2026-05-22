@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | BreakdownInsurance.co.nz`,
     description: post.excerpt,
-    alternates: { canonical: `https://breakdowninsurance.co.nz/blog/${slug}` },
+    alternates: { canonical: `https://www.breakdowninsurance.co.nz/blog/${slug}` },
     openGraph: { title: post.title, description: post.excerpt, images: [{ url: post.image }] },
   };
 }
@@ -32,9 +32,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   return (
     <>
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://breakdowninsurance.co.nz' },
-        { name: 'Blog', url: 'https://breakdowninsurance.co.nz/blog' },
-        { name: post.title, url: `https://breakdowninsurance.co.nz/blog/${slug}` },
+        { name: 'Home', url: 'https://www.breakdowninsurance.co.nz' },
+        { name: 'Blog', url: 'https://www.breakdowninsurance.co.nz/blog' },
+        { name: post.title, url: `https://www.breakdowninsurance.co.nz/blog/${slug}` },
       ]} />
 
       <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: `url(${post.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>

@@ -5,7 +5,7 @@ import { providers } from '@/data/providers';
 export const metadata: Metadata = {
   title: 'Compare Breakdown Insurance Providers 2026 | Mechanical Breakdown Insurance Comparison',
   description: 'Compare the top mechanical breakdown insurance providers side by side. Autosure, AA, Assurant, Provident, Autolife and Quest — find the right policy for your vehicle.',
-  alternates: { canonical: 'https://breakdowninsurance.co.nz/compare' },
+  alternates: { canonical: 'https://www.breakdowninsurance.co.nz/compare' },
 };
 
 const featureMatrix = [

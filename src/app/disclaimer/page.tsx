@@ -4,13 +4,13 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Disclaimer | BreakdownInsurance.co.nz',
   description: 'Full disclaimer for BreakdownInsurance.co.nz — an independent comparison and information service operated by Cover4You.',
-  alternates: { canonical: 'https://breakdowninsurance.co.nz/disclaimer' },
+  alternates: { canonical: 'https://www.breakdowninsurance.co.nz/disclaimer' },
 };
 
 export default function DisclaimerPage() {
   return (
     <>
-      <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1493238792000-8113da705763?w=1600&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="relative py-20 sm:py-28 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundImage: 'url(/hero-mechanic.jpg', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 to-slate-900/30" />
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4">Disclaimer</h1>

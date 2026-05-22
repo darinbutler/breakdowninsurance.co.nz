@@ -7,14 +7,14 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 export const dynamicParams = false;
 
 const heroImages = [
-  'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1600&q=80',
-  'https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1600&q=80',
-  'https://images.unsplash.com/photo-1568844293986-8d0400bd4745?w=1600&q=80',
-  'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&q=80',
-  'https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?w=1600&q=80',
-  'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80',
-  'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80',
-  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80',
+  '/hero-car-highway.jpg',
+  '/hero-car-road.jpg',
+  '/hero-suv.jpg',
+  '/hero-ev-hybrid.jpg',
+  '/hero-car-electrical.jpg',
+  '/hero-mbi-guide.jpg',
+  '/hero-workshop.jpg',
+  '/hero-drivetrain.jpg',
 ];
 
 export async function generateStaticParams() {
@@ -28,11 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: page.metaTitle,
     description: page.metaDescription,
-    alternates: { canonical: `https://breakdowninsurance.co.nz/breakdown-insurance/${slug}` },
+    alternates: { canonical: `https://www.breakdowninsurance.co.nz/breakdown-insurance/${slug}` },
     openGraph: {
       title: page.metaTitle,
       description: page.metaDescription,
-      url: `https://breakdowninsurance.co.nz/breakdown-insurance/${slug}`,
+      url: `https://www.breakdowninsurance.co.nz/breakdown-insurance/${slug}`,
       type: 'article',
     },
   };
@@ -46,7 +46,7 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
   const pageIndex = insurancePages.findIndex((p) => p.slug === slug);
   const heroImage = heroImages[pageIndex % heroImages.length];
   const relatedPages = insurancePages.filter((p) => p.slug !== slug).slice(0, 5);
-  const pageUrl = `https://breakdowninsurance.co.nz/breakdown-insurance/${slug}`;
+  const pageUrl = `https://www.breakdowninsurance.co.nz/breakdown-insurance/${slug}`;
   const publishDate = '2026-04-10';
   const modifiedDate = '2026-05-13';
 
@@ -61,13 +61,13 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
     author: {
       '@type': 'Organization',
       name: 'BreakdownInsurance.co.nz Editorial Team',
-      url: 'https://breakdowninsurance.co.nz/about',
+      url: 'https://www.breakdowninsurance.co.nz/about',
     },
     publisher: {
       '@type': 'Organization',
       name: 'BreakdownInsurance.co.nz',
-      url: 'https://breakdowninsurance.co.nz',
-      logo: { '@type': 'ImageObject', url: 'https://breakdowninsurance.co.nz/android-chrome-512x512.png' },
+      url: 'https://www.breakdowninsurance.co.nz',
+      logo: { '@type': 'ImageObject', url: 'https://www.breakdowninsurance.co.nz/android-chrome-512x512.png' },
     },
     image: heroImage,
     mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
@@ -78,8 +78,8 @@ export default async function InsurancePage({ params }: { params: Promise<{ slug
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <BreadcrumbSchema items={[
-        { name: 'Home', url: 'https://breakdowninsurance.co.nz' },
-        { name: 'Guides', url: 'https://breakdowninsurance.co.nz/blog' },
+        { name: 'Home', url: 'https://www.breakdowninsurance.co.nz' },
+        { name: 'Guides', url: 'https://www.breakdowninsurance.co.nz/blog' },
         { name: page.title, url: pageUrl },
       ]} />
 

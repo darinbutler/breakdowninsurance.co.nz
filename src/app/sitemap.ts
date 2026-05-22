@@ -5,7 +5,7 @@ import { blogPosts } from '@/data/blog-posts';
 import { coverageTypes } from '@/data/coverage-types';
 import { insurancePages } from '@/data/insurance-pages';
 
-const BASE_URL = 'https://breakdowninsurance.co.nz';
+const BASE_URL = 'https://www.breakdowninsurance.co.nz';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

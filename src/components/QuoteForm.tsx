@@ -58,7 +58,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
         </div>
 
         <form action="https://shiny-bush-41cd.darinbutler.workers.dev" method="POST" onSubmit={handleSubmit} className="p-6 space-y-4">
-          <input type="hidden" name="_next" value="https://breakdowninsurance.co.nz/thank-you/" />
+          <input type="hidden" name="_next" value="https://www.breakdowninsurance.co.nz/thank-you/" />
           <input type="hidden" name="_subject" value="New breakdown insurance Quote Request - BreakdownInsurance.co.nz" />
           <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
           <input type="hidden" name="_captcha" value="false" />
@@ -142,7 +142,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           </div>
 
           <form action="https://shiny-bush-41cd.darinbutler.workers.dev" method="POST" onSubmit={handleSubmit} className="p-6 sm:p-10">
-            <input type="hidden" name="_next" value="https://breakdowninsurance.co.nz/thank-you/" />
+            <input type="hidden" name="_next" value="https://www.breakdowninsurance.co.nz/thank-you/" />
             <input type="hidden" name="_subject" value="New breakdown insurance Quote Request - BreakdownInsurance.co.nz" />
             <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
             <input type="hidden" name="_captcha" value="false" />
