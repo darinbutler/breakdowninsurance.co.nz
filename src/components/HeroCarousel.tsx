@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 const heroImages = [
-  { url: '/hero-car-highway.jpg', alt: 'Modern car on open highway at golden hour' },
-  { url: '/hero-mechanic.jpg', alt: 'Mechanic inspecting a vehicle engine in a professional workshop' },
-  { url: '/hero-workshop.jpg', alt: 'Auto repair workshop with vehicles being serviced' },
-  { url: '/hero-suv.jpg', alt: 'Family SUV on the road' },
+  { url: '/hero-1.jpg', alt: 'Modern car on open highway at golden hour' },
+  { url: '/hero-2.jpg', alt: 'Mechanic inspecting a vehicle engine in a professional workshop' },
+  { url: '/hero-3.jpg', alt: 'Auto repair workshop with vehicles being serviced' },
+  { url: '/hero-1.jpg', alt: 'Family SUV on the road' },
 ];
 
 export default function HeroCarousel() {

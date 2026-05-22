@@ -7,12 +7,12 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 export const dynamicParams = false;
 
 const heroImages: Record<string, string> = {
-  comprehensive: '/hero-car-parked.jpg',
-  drivetrain: '/hero-drivetrain.jpg',
-  electrical: '/hero-car-electrical.jpg',
-  'ev-hybrid': '/hero-ev-hybrid.jpg',
-  'roadside-assistance': '/hero-suv.jpg',
-  'extended-warranty': '/hero-mbi-guide.jpg',
+  comprehensive: '/hero-1.jpg',
+  drivetrain: '/hero-2.jpg',
+  electrical: '/hero-3.jpg',
+  'ev-hybrid': '/hero-1.jpg',
+  'roadside-assistance': '/hero-2.jpg',
+  'extended-warranty': '/hero-3.jpg',
 };
 
 export async function generateStaticParams() {

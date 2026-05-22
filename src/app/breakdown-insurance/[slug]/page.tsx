@@ -7,14 +7,14 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema';
 export const dynamicParams = false;
 
 const heroImages = [
-  '/hero-car-highway.jpg',
-  '/hero-car-road.jpg',
-  '/hero-suv.jpg',
-  '/hero-ev-hybrid.jpg',
-  '/hero-car-electrical.jpg',
-  '/hero-mbi-guide.jpg',
-  '/hero-workshop.jpg',
-  '/hero-drivetrain.jpg',
+  '/hero-1.jpg',
+  '/hero-2.jpg',
+  '/hero-3.jpg',
+  '/hero-1.jpg',
+  '/hero-2.jpg',
+  '/hero-3.jpg',
+  '/hero-1.jpg',
+  '/hero-2.jpg',
 ];
 
 export async function generateStaticParams() {
